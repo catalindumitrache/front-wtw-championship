@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+
+$font-stack: Helvetica, sans-serif;
+$primary-color: #333333;
+
+body {
+  font: 100% $font-stack;
+  background: $primary-color;
+  color: white;
+}
+
+.text-poppy-red {
+  color: #ef5350 !important;
+}
+.btn-poppy-red {
+  background-color: #ef5350 !important;
+}
+.bg-poppy-red {
+  background-color: #ef5350 !important;
+}
+
+
+
